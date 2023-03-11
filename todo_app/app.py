@@ -22,7 +22,7 @@ def index():
 def New_List():
     # add new item
     title = request.form.get("title")
-    #add_item(title)
+    add_item(title)
     #New_List(add_item)
 
     return redirect(url_for("index"))
