@@ -7,7 +7,7 @@ from todo_app.data.session_items import add_item
 
 
 app = Flask(__name__)
-app.config.from_object(Config)
+app.config.from_object(Config())
 
 
 
