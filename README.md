@@ -52,3 +52,8 @@ You should see output similar to the following:
  * Debugger PIN: 226-556-590
 ```
 Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser to view the app.
+
+## Setup Instructions
+
+1. Sign-Up to Trello to create a Trello account 
+2. Create a .env file to store the secret key in a secure environment.
