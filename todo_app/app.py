@@ -26,8 +26,8 @@ def start_item(id):
     return redirect(url_for('index'))
 
 @app.route('items/<id>/complete')
-def start_item(id):
-    trello.start_item(id)
+def complete_item(id):
+    trello.complete_item(id)
     return redirect(url_for('index'))
 
 @app.route('items/<id>uncomplete')
