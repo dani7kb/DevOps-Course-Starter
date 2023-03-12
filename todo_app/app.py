@@ -37,4 +37,8 @@ def uncomplete_item(id):
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run()
+=======
+    app.run()
+>>>>>>> d860a331e6070cba69d4f768ec0051b8d2a0ac70

@@ -56,4 +56,8 @@ Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser
 ## Setup Instructions
 
 1. Sign-Up to Trello to create a Trello account 
+<<<<<<< HEAD
 2. Create a .env file to store the secret key in a secure environment.
+=======
+2. Create a .env file to store the secret key in a secure environment.
+>>>>>>> d860a331e6070cba69d4f768ec0051b8d2a0ac70
