@@ -20,25 +20,21 @@ def add_items():
     return redirect(url_for('index'))
 
 
-@app.route('items/<id>/start')
+@app.route('/items/<id>/start')
 def start_item(id):
     trello.start_item(id)
     return redirect(url_for('index'))
 
-@app.route('items/<id>/complete')
+@app.route('/items/<id>/complete')
 def complete_item(id):
     trello.complete_item(id)
     return redirect(url_for('index'))
 
-@app.route('items/<id>uncomplete')
+@app.route('/items/<id>uncomplete')
 def uncomplete_item(id):
     trello.uncomplete_item(id)
     return redirect(url_for('index'))
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     app.run()
-=======
-    app.run()
->>>>>>> d860a331e6070cba69d4f768ec0051b8d2a0ac70
