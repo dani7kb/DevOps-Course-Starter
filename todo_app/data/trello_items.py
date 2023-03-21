@@ -14,8 +14,38 @@ class Item:
 
 
 def add_items():
-    pass
-    #return trello.get('items')
+    #pass
+
+    # url = "https://api.trello.com/1/boards/b3L47Acw/lists"
+
+    # headers = {
+    #   "Accept": "application/json"
+    # }
+
+    # query = {
+    #   'key': os.getenv('API_KEY'),
+    #   'token': os.getenv('API_TOKEN'),
+    #   'cards': 'open'
+      
+    # }
+
+    # response = requests.request(
+    #   "POST",
+    #   url,
+    #   headers=headers,
+    #   params=query
+    # )
+
+    # response_json = response.json()
+
+    # cards = []
+    # for trello_list in response_json:
+    #     for card in trello_list['cards']:
+    #         item = Item.from_trello_card(card, trello_list)
+    #         cards.append(item)
+
+    
+    # return card
 
 def get_items():
 

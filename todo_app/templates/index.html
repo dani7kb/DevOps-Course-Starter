@@ -18,15 +18,14 @@
             <p> {{item.id}} | {{item.name}} | {{item.status}} </p>
           <!--</tr></td>-->
 
-          <a href="/">Update</a>
-          <a href="/">Delete</a>
-
+          <!--<a href="/">Update</a>
+          <a href="/">Delete</a>-->
 
 
           {% endfor %}
         <!--</table>-->
         <!--Form-->
-        <form action="/New_List" method="POST" class="form-example">
+        <form action="/items/new" method="POST" class="form-example">
           <div class="form-example">
            <br>
             <label for="title"><b>Enter a new item to the To-Do List:</b> </label>
